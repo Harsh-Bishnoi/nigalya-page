@@ -1,0 +1,7 @@
+:root {
+    --font-family-primary: "Jost", serif;
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
