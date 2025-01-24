@@ -1,7 +1,70 @@
 :root {
+    /* font family */
     --font-family-primary: "Jost", serif;
+    /* font size */
+    --fs-small: 16px;
+    --fs-sm: 20px;
+    --fs-medium: 24px;
+    --fs-md: 36px;
+    --fs-lg: 96px;
+    /* line height */
+    --lh-19: 19.28px;
+    --lh-22: 22.8px;
+    --lh-27: 27.36px;
+    --lh-109: 109.44px;
 }
 
+/* font family */
 .font-family-primary {
     font-family: var(--font-family-primary);
+}
+
+/* font size */
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-medium {
+    font-size: var(--fs-medium);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+/* line height */
+.lh-19 {
+    line-height: var(--lh-19);
+}
+
+.lh-22 {
+    line-height: var(--lh-22);
+}
+
+.lh-27 {
+    line-height: var(--lh-27);
+}
+
+.lh-109 {
+    line-height: var(--lh-109);
+}
+
+@media (max-width:1199.98px) {
+    :root {
+        --fs-lg: 68px;
+    }
+}
+
+@media (max-width:991.98px) {
+    :root {
+        --fs-lg: 50px;
+    }
 }
