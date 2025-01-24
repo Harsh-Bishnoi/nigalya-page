@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <header class="bg-img-1 d-flex align-items-center justify-content-center justify-items-center flex-column">
+    <header
+        class="bg-img-1 d-flex align-items-center justify-content-center justify-items-center flex-column position-relative">
         <nav class="py-30 w-100 blur-20">
             <div class="container max-w-1140">
                 <div class="d-flex align-items-center justify-content-between w-100">
@@ -20,42 +21,43 @@
                         <img class="logo" src="./assets/images/svg/nav-logo.svg" alt="nav-logo"></a>
                     <ul id="name"
                         class="d-flex mb-0 align-items-center gap-39 nav-link list-unstyled justify-content-center">
-                        <li><a class="text-decoration-none font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
+                        <li><a class="text-decoration-none text-hover font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
                                 href="/">HOME</a>
                         </li>
-                        <li><a class="text-decoration-none font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
+                        <li><a class="text-decoration-none text-hover font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
                                 href="/">ABOUT</a>
                         </li>
-                        <li><a class="text-decoration-none font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
+                        <li><a class="text-decoration-none text-hover font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
                                 href="/">ROADMAP</a></li>
-                        <li><a class="text-decoration-none font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
+                        <li><a class="text-decoration-none text-hover font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
                                 href="/">TEAM</a>
                         </li>
-                        <li><a class="text-decoration-none font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
+                        <li><a class="text-decoration-none text-hover font-family-primary fw-normal text-white fs-small lh-19 navbar-link"
                                 href="/">FAQ</a>
                         </li>
                     </ul>
                     <ul class="d-flex list-unstyled gap-14 mb-0">
-                        <a href="https://x.com/i/flow/login" target="_blank">
-                            <li class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/twitter-logo.svg" alt="twitter-svg">
-                            </li>
-                        </a>
-                        <a href="https://web.telegram.org/k/" target="_blank">
-                            <li class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/telegram-logo.svg" alt="twitter-svg">
-                            </li>
-                        </a>
-                        <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
-                            <li class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/insta-logo.svg" alt="twitter-svg">
-                            </li>
-                        </a>
-                        <a href="https://canary.discord.com/login" target="_blank">
-                            <li class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/discord-logo.svg" alt="twitter-svg">
-                            </li>
-                        </a>
+                        <li>
+                            <a class="circle d-flex justify-content-center align-items-center"
+                                href="https://x.com/i/flow/login" target="_blank"><img
+                                    src="./assets/images/svg/twitter-logo.svg" alt="twitter-svg"></a>
+                        </li>
+                        <li>
+                            <a class="circle d-flex justify-content-center align-items-center"
+                                href="https://web.telegram.org/k/" target="_blank">
+                                <img src="./assets/images/svg/telegram-logo.svg" alt="telegram-svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="circle d-flex justify-content-center align-items-center"
+                                href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img
+                                    src="./assets/images/svg/insta-logo.svg" alt="instagram-svg"></a>
+                        </li>
+                        <li>
+                            <a class="circle d-flex justify-content-center align-items-center"
+                                href="https://canary.discord.com/login" target="_blank">
+                                <img src="./assets/images/svg/discord-logo.svg" alt="discord-svg"></a>
+                        </li>
                     </ul>
                     <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer">
                         <span class="menu-lines bg-light" id="rotates"></span>
@@ -69,7 +71,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12 mt-107">
-                        <img src="./assets/images/png/header-img.png" alt="panda-img" class="w-100 panda-img">
+                        <img src="./assets/images/png/header-img.png" alt="panda-img" class="w-100 panda-img z-1">
                     </div>
                     <div class="col-lg-6 col-12 mt-133">
                         <div class="d-flex justify-content-center justify-content-lg-start align-items-center">
@@ -89,16 +91,26 @@
                         </div>
                         <div
                             class="d-flex gap-29 justify-content-center justify-content-lg-start align-items-center flex-sm-row flex-column">
-                            <button class="join-btn font-family-primary fw-semibold fs-sm lh-22 text-white">JOIN
+                            <button class="join-btn font-family-primary fw-semibold fs-sm lh-22 text-white z-1">JOIN
                                 NOW</button>
                             <button
-                                class="white-btn font-family-primary fw-semibold fs-sm lh-22 text-white">Whitepaper</button>
+                                class="white-btn font-family-primary fw-semibold fs-sm lh-22 text-white z-1">Whitepaper</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <img src="./assets/images/png/header-layer.png" alt="" class="w-100 position-absolute layer">
     </header>
+    <!-- section 1 -->
+    <section class="bg-img-2 d-flex align-items-center justify-content-center justify-items-center">
+        <div class="container">
+            <h3 class="font-family-primary fw-semibold fs-medium lh-27 text-center text-white mb-0 mt-223">Trailor</h3>
+            <h2 class="font-family-primary fw-900 fs-lg text-center lh-109 text-white mb-0">Coming soon...</h2>
+            <h4 class="font-family-primary fw-semibold fs-md lh-41 text-center text-white mt-199 mb-7">10:22:25:42</h4>
+            <h5 class="font-family-primary fw-normal fs-small lh-18 text-center text-white mb-74">Time left</h5>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

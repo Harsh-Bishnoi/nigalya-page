@@ -1,6 +1,9 @@
 :root {
     /* font family */
     --font-family-primary: "Jost", serif;
+    /* color */
+    --color-light-black:#00000080;
+    --color-white:#FFFFFF;
     /* font size */
     --fs-small: 16px;
     --fs-sm: 20px;
@@ -8,9 +11,11 @@
     --fs-md: 36px;
     --fs-lg: 96px;
     /* line height */
+    --lh-18: 18.24px;
     --lh-19: 19.28px;
     --lh-22: 22.8px;
     --lh-27: 27.36px;
+    --lh-41: 41.04px;
     --lh-109: 109.44px;
 }
 
@@ -41,6 +46,10 @@
 }
 
 /* line height */
+.lh-18 {
+    line-height: var(--lh-18);
+}
+
 .lh-19 {
     line-height: var(--lh-19);
 }
@@ -53,6 +62,10 @@
     line-height: var(--lh-27);
 }
 
+.lh-41 {
+    line-height: var(--lh-41);
+}
+
 .lh-109 {
     line-height: var(--lh-109);
 }
@@ -60,6 +73,7 @@
 @media (max-width:1199.98px) {
     :root {
         --fs-lg: 68px;
+        --lh-109: normal;
     }
 }
 
