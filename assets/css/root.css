@@ -6,10 +6,12 @@
     --color-white: #FFFFFF;
     --color-black: #0D0D0D;
     --color-sky-blue: #059EF1;
+    --color-dark-blue: #056BF1;
+    --color-light-blue:#06AFF2;
     /* font size */
-    --fs-small: 16px;
+    --fs-extra-small: 16px;
     --fs-sm: 20px;
-    --fs-medium: 24px;
+    --fs-base: 24px;
     --fs-md: 36px;
     --fs-lg: 94px;
     /* line height */
@@ -31,16 +33,16 @@
 }
 
 /* font size */
-.fs-small {
-    font-size: var(--fs-small);
+.fs-extra-small {
+    font-size: var(--fs-extra-small);
 }
 
 .fs-sm {
     font-size: var(--fs-sm);
 }
 
-.fs-medium {
-    font-size: var(--fs-medium);
+.fs-base {
+    font-size: var(--fs-base);
 }
 
 .fs-md {

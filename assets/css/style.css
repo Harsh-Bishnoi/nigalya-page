@@ -120,7 +120,7 @@
     border-radius: 30.5px;
     border: none;
     max-width: 167px;
-    background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
+    background: linear-gradient(135.55deg, var(--color-light-blue) -2.07%, var(--color-dark-blue) 105.81%);
 }
 
 .join-btn:hover {
@@ -304,8 +304,7 @@
 }
 
 .line {
-    border: 1px solid;
-    border-color: var(--color-white);
+    border: 1px solid var(--color-white);
 }
 
 .footer .accordion-button:not(.collapsed)::after {
