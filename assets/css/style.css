@@ -31,7 +31,7 @@
     transform: rotate(-43deg);
 }
 
-.py-30 {
+.py-15 {
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -81,10 +81,6 @@
     height: 810px;
 }
 
-.mt-75 {
-    margin-top: 75px;
-}
-
 .gap-39 {
     gap: 39px;
 }
@@ -111,14 +107,6 @@
 
 .gap-29 {
     gap: 29px;
-}
-
-.mt-133 {
-    margin-top: 20px !important;
-}
-
-.mt-107 {
-    margin-top: 20px !important;
 }
 
 .panda-img {
@@ -153,7 +141,6 @@
 }
 
 .layer {
-    position: absolute;
     bottom: 0%;
     width: 100%;
     left: 0%;
@@ -288,16 +275,16 @@
     transition: all 200ms linear;
 }
 
+.circle-2:hover {
+    transform: translateY(-15px);
+}
+
 .mt-82 {
     margin-top: 82px;
 }
 
 .pb-45 {
     padding-bottom: 45px;
-}
-
-.circle-2:hover {
-    transform: translateY(-15px);
 }
 
 .footer .accordion {
@@ -404,13 +391,5 @@
     .blur-20 {
         backdrop-filter: blur(20px);
         background: var(--color-light-black);
-    }
-
-    .mt-133 {
-        margin-top: 133px !important;
-    }
-
-    .mt-107 {
-        margin-top: 107px !important;
     }
 }
