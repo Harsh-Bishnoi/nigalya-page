@@ -48,7 +48,7 @@
 
 .text-hover::before {
     content: '';
-    background: #059EF1;
+    background: var(--color-sky-blue);
     position: absolute;
     bottom: 0px;
     width: 0;
