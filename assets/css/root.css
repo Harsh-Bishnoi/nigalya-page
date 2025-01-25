@@ -2,21 +2,25 @@
     /* font family */
     --font-family-primary: "Jost", serif;
     /* color */
-    --color-light-black:#00000080;
-    --color-white:#FFFFFF;
+    --color-light-black: #00000080;
+    --color-white: #FFFFFF;
     /* font size */
     --fs-small: 16px;
     --fs-sm: 20px;
     --fs-medium: 24px;
     --fs-md: 36px;
-    --fs-lg: 96px;
+    --fs-lg: 94px;
     /* line height */
     --lh-18: 18.24px;
     --lh-19: 19.28px;
     --lh-22: 22.8px;
+    --lh-24: 24px;
     --lh-27: 27.36px;
+    --lh-35: 35.4px;
     --lh-41: 41.04px;
     --lh-109: 109.44px;
+    /* opacity */
+    --opacity-70: 70%;
 }
 
 /* font family */
@@ -58,8 +62,16 @@
     line-height: var(--lh-22);
 }
 
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
 .lh-27 {
     line-height: var(--lh-27);
+}
+
+.lh-35 {
+    line-height: var(--lh-35);
 }
 
 .lh-41 {
@@ -68,6 +80,11 @@
 
 .lh-109 {
     line-height: var(--lh-109);
+}
+
+/* opacity */
+.opacity-70 {
+    opacity: var(--opacity-70);
 }
 
 @media (max-width:1199.98px) {
